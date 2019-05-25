@@ -11,6 +11,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <!-- Declaración de activities:
+                Etiqueta <intent-filter>: Establece la activity como la primera. -->
         <activity android:name=".views.PruebaActivity">
         </activity>
         <activity android:name=".views.LoginActivity">
