@@ -1,4 +1,4 @@
-package net.proyecto.pruebasproyecto.views
+package net.proyecto.pruebasproyecto.views.fragments
 
 import android.os.Bundle
 import android.support.v4.app.Fragment

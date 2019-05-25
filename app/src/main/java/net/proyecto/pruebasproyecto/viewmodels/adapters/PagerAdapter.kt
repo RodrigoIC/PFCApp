@@ -3,17 +3,23 @@ package net.proyecto.pruebasproyecto.viewmodels.adapters
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
-import net.proyecto.pruebasproyecto.views.EntrenamientosFragment
-import net.proyecto.pruebasproyecto.views.NubeFragment
-import net.proyecto.pruebasproyecto.views.RutinasFragment
+import net.proyecto.pruebasproyecto.views.fragments.EntrenamientosFragment
+import net.proyecto.pruebasproyecto.views.fragments.NubeFragment
+import net.proyecto.pruebasproyecto.views.fragments.RutinasFragment
 
 class PagerAdapter(fm : FragmentManager) : FragmentPagerAdapter(fm)
 {
     override fun getItem(position : Int): Fragment {
         return  when (position){
-            0 -> { RutinasFragment() }
-            1 -> { EntrenamientosFragment() }
-            else -> { NubeFragment() }
+            0 -> {
+                RutinasFragment()
+            }
+            1 -> {
+                EntrenamientosFragment()
+            }
+            else -> {
+                NubeFragment()
+            }
         }
     }
 
