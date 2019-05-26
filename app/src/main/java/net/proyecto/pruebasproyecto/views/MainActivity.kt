@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_camera -> {
                 // Handle the camera action
             }
-            R.id.nav_gallery -> {
+            /*R.id.nav_gallery -> {
 
             }
             R.id.nav_slideshow -> {
@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_send -> {
 
-            }
+            }*/
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)
